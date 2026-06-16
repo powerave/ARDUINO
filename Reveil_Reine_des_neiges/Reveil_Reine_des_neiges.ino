@@ -4,6 +4,8 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 
+// Retirer tous les delays et passer par interruption ISR
+
 const char* ssid = "Bbox";
 const char* pw = ""; // A Renseigner
 
