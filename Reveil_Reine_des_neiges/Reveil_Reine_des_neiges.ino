@@ -5,7 +5,7 @@
 #include <Adafruit_SSD1306.h>
 
 const char* ssid = "Bbox";
-const char* pw = "24wifibox";
+const char* pw = ""; // A Renseigner
 
 const char* ntpServer = "pool.ntp.org"; // serveur gratuit pour choper l'heure précise
 const long gmOffset_sec = 3600; // UTC +1 Paris
